@@ -1,0 +1,130 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;  
+}
+
+header{
+    background-color: #9c9587;
+    height: 180px;
+    position: relative;
+}
+
+header h1{
+    font-size: 35px;
+    color: white;
+}
+
+nav{
+    background-color: #adaca8;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+header .logo{
+    display: flex;
+    justify-content: center;
+    margin-top: -90px;
+}
+
+.Cadastro{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -130px;
+    
+}
+
+header form input{
+    display: block;
+    
+}
+
+nav ul{
+    margin-right: 15px;
+}
+
+nav li{
+    display: inline;
+    margin-right: 25px;
+}
+
+header nav li a{
+    color: white;
+    text-decoration: none;
+}
+
+header nav li a:hover, header nav li a.current{
+    color: black;
+}
+
+header nav li a:hover{
+    text-decoration: underline;
+}
+
+aside{
+    width: 1080px;
+    float: left;
+    border-right: 1px solid grey;
+    margin-top: 80px;
+}
+
+.pratos{
+    display: flex;
+    height: 250px;
+}
+
+.pratoss{
+    margin-top: 40px;
+    display: flex;
+    height: 155px;
+}
+
+.pratoss img{
+    float: left;
+    border: 1px solid lightgray;
+    padding: 5px;
+    margin: 20px;
+}
+
+.pratos img{
+    float: left;
+    border: 1px solid lightgray;
+    padding: 5px;
+    margin: 20px;
+}
+
+.coluna{
+    flex-direction: column;
+}
+
+aside .coluna p{
+    font-size: 18px;
+}
+
+aside .coluna h2{
+    margin-top: 40px;
+    font-size: 20px;
+    color: rgb(150, 26, 26);
+}
+
+
+
+main{
+    margin-top: 40px;
+    width: 300px;
+    float: left;
+    padding: 50px;
+}
+
+main h2{
+    padding: 10px 10px 20px;
+    color: rgb(150, 26, 26);
+}
+
+main .popular li{
+    padding: 10px;
+    border-bottom: 1px solid lightgray;
+}
+
+main .popular li:hover{
+    background-color: lightgray;
+}
